@@ -16,3 +16,18 @@ A Streamlit web app that classifies a fish photo as **Healthy** or **Sick** usin
 ## Run locally
 1. Install Python and download this repository
 2. Open a terminal in the project folder and run:
+
+```
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+python -m streamlit run app.py
+```
+
+Note: `run_app.bat` uses a path specific to my PC (`C:\fish-app`), so other users should use the commands above instead.
+
+## Email alerts
+Use a Gmail **App Password**, not your normal password. You can create one at myaccount.google.com/apppasswords.
+
+## Dataset
+The dataset is not included in this repo. It was used in this public Kaggle notebook: [Fish Disease Classification](https://www.kaggle.com/code/alaamahmoud2010/fish-disease-classification/input)
